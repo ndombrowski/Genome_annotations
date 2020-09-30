@@ -3,25 +3,15 @@ Annotation pipeline
 Nina Dombrowski
 2020-09-30
 
-<p align="left">
-
-<img width="50" height="50" src="/Users/ninadombrowski/Desktop/WorkingDir/General/Pictures_general/text4236.png">
-
-</p>
-
 This example is run on a set of \~20 Crenarchaeal Genomes and the
 location dirs are kept for convenience. To run on this example please
 copy the genomes to your own dir and *do not run this in the original
 folder*
 
 # 
-
 # 
-
 # General
-
 # 
-
 # 
 
 ## Version programs
