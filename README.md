@@ -9,15 +9,13 @@ copy the genomes to your own dir and *do not run this in the original
 folder*
 
 # 
-# 
 # General
 # 
-# 
+
 
 ## Version programs
 
 # 
-
 1.  prokka 1.14-dev
 2.  Python 2.7.5
 3.  perl v5.16.3
@@ -27,7 +25,6 @@ folder*
 7.  interproscan: InterProScan-5.29-68.0
 
 ## Version databases
-
 # 
 
 1.  KAAS: Automatic Annotation Server Ver. 2.1
@@ -46,17 +43,11 @@ folder*
     here](https://www.genome.jp/tools/kofamkoala/)
 
 # 
-
-# 
-
 # Setup of genomes
-
 # 
 
-# 
 
 ## Set working directory
-
 # 
 
 ``` bash
@@ -64,7 +55,6 @@ cd /export/lv1/user/spang_team/Projects/BlackSea18/Database_Annotations/v2
 ```
 
 ## Location of relevant data
-
 # 
 
 Notice: These genomes can be used for testing the pipeline
@@ -87,13 +77,7 @@ cat /export/lv1/user/spang_team/Projects/BlackSea18/Contaminant_cleaning/*/FileL
 ```
 
 # 
-
-# 
-
 # Do the Annotations
-
-# 
-
 # 
 
 ## Get list to link old with new contig name, test name: NIOZ136\_mx\_b338\_temp
