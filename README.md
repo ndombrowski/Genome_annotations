@@ -78,7 +78,7 @@ cat /export/lv1/user/spang_team/Projects/BlackSea18/Contaminant_cleaning/*/FileL
 # Do the Annotations
 # 
 
-## Get list to link old with new contig name, test name: NIOZ136\_mx\_b338\_temp
+## Get list to link old with new contig name (since prokka renames the contig name)
 
 # 
 
@@ -181,7 +181,7 @@ wc -l B_GenomeInfo.txt
 rm temp*
 ```
 
-## ArCOGs search –\> done
+## ArCOGs search
 
 # 
 
@@ -237,7 +237,7 @@ awk 'BEGIN{FS="\t";OFS="\t"}FNR==NR{a[$1]=$0;next}{print $0,a[$1]}' arcogs/C_arc
 rm arcogs/temp*
 ```
 
-## KO search using Hmm’s –\> done
+## KO search using Hmm’s 
 
 # 
 
@@ -273,7 +273,7 @@ wc -l merge/*
 rm KO_hmm/temp*
 ```
 
-## Pfam search –\> done
+## Pfam search 
 
 # 
 
@@ -312,7 +312,7 @@ wc -l merge/*
 rm pfam/temp*
 ```
 
-## TIRG search –\> done
+## TIRG search
 
 # 
 
@@ -345,7 +345,7 @@ wc -l merge/*
 rm TIGRs/temp*
 ```
 
-## CazyDB search –\> done
+## CazyDB search 
 
 # 
 
@@ -437,7 +437,7 @@ wc -l merge/*tsv
 rm Merops/temp*
 ```
 
-## Transporter DB search –\> done
+## Transporter DB search 
 
 # 
 
@@ -494,7 +494,7 @@ wc -l merge/*
 rm TransporterDB/temp*
 ```
 
-## HydDB search –\> done
+## HydDB search 
 
 # 
 
@@ -540,7 +540,7 @@ wc -l merge/*
 rm HydDB/temp*
 ```
 
-## IPRscan –\> done
+## IPRscan 
 
 # 
 
@@ -625,7 +625,7 @@ wc -l merge/*
 rm IPRscan/temp*
 ```
 
-## Diamond against NCBI NR
+## Diamond search against NCBI NR
 
 # 
 
@@ -676,7 +676,7 @@ rm NCBI_NR/temp*
 
 # 
 
-# Modify final dataframe
+# Modify final dataframe and put everything together
 
 # 
 
@@ -703,27 +703,3 @@ rm merge/temp_[12].tsv
 gzip merge/*tsv
 ```
 
-# 
-
-# 
-
-# Subset final dataframe
-
-# 
-
-# 
-
-## Extract hits for archaea only
-
-``` bash
-mkdir FileList
-
-nano FileLists/DPANN_list
-nano FileLists/Archaea_list
-
-#subset annotation list
-mkdir merge/subset
-
-grep -f FileLists/Archaea_list merge/Annotations_BS18_v2.txt > merge/subset/Annotations_archaea.txt
-
-```
