@@ -3,10 +3,8 @@ Annotation pipeline
 Nina Dombrowski
 2020-09-30
 
-This example is run on a set of \~20 Crenarchaeal Genomes and the
-location dirs are kept for convenience. To run on this example please
-copy the genomes to your own dir and *do not run this in the original
-folder*
+This workflow can be used to annotate bacterial and archaeal genomes and I will try to keep it updated.The used databased and necessary scripts can all found in a zenodo repository (zenodo.org/record/3839790), which is part of the following manuscript: Dombrowski, N. et al. Undinarchaeota illuminate DPANN phylogeny and the impact of gene transfer on archaeal evolution. Nature Communications 11, 3939 (2020).
+
 
 # 
 # General
