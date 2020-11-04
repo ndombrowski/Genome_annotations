@@ -3,7 +3,9 @@ Annotation pipeline
 Nina Dombrowski
 2020-09-30
 
-This workflow can be used to annotate bacterial and archaeal genomes and I will try to keep it updated.The used databased and necessary scripts can all found in a zenodo repository (zenodo.org/record/3839790), which is part of the following manuscript: Dombrowski, N. et al. Undinarchaeota illuminate DPANN phylogeny and the impact of gene transfer on archaeal evolution. Nature Communications 11, 3939 (2020).
+This workflow can be used to annotate bacterial and archaeal genomes.The used databased and necessary scripts can all found in a zenodo repository (zenodo.org/record/3839790), which is part of the following manuscript: Dombrowski, N. et al. Undinarchaeota illuminate DPANN phylogeny and the impact of gene transfer on archaeal evolution. Nature Communications 11, 3939 (2020).
+
+This is the workflow used for the mentioned publication but an updated version of the pipeline is availabe here: https://github.com/ndombrowski/Annotation_worfklow 
 
 
 # 
