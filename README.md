@@ -3,14 +3,16 @@ Annotation pipeline
 Nina Dombrowski
 2020-09-30
 
+# `Cite`
+
 This workflow can be used to annotate bacterial and archaeal genomes.The used databased and necessary scripts can all found in a zenodo repository (zenodo.org/record/3839790), which is part of the following manuscript: Dombrowski, N. et al. Undinarchaeota illuminate DPANN phylogeny and the impact of gene transfer on archaeal evolution. Nature Communications 11, 3939 (2020).
 
 This is the workflow used for the mentioned publication but an updated version of the pipeline is availabe here: https://github.com/ndombrowski/Annotation_worfklow 
 
+If you use these tutorials in your work, please cite the paper mentioned above.
 
-# 
-# General
-# 
+
+# `General`
 
 
 ## Version programs
@@ -25,7 +27,6 @@ This is the workflow used for the mentioned publication but an updated version o
 7.  interproscan: InterProScan-5.29-68.0
 
 ## Version databases
-# 
 
 1.  KAAS: Automatic Annotation Server Ver. 2.1
 2.  TIGRFAMs\_15.0\_HMM.LIB: downloaded Sept 2018
@@ -42,9 +43,8 @@ This is the workflow used for the mentioned publication but an updated version o
 11. KOhmms: downloaded 90419 from [link
     here](https://www.genome.jp/tools/kofamkoala/)
 
-# 
+
 # Setup of genomes
-# 
 
 
 ## Set working directory
